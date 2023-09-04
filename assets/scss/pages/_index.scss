@@ -6,3 +6,55 @@
   width: 24px;
   height: 24px;
 }
+.recent-img{
+  width: 100%;
+  height: 255px;
+  object-fit: cover;
+}
+.index-online-event{
+  background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week6/event/online.jpg');
+  background-position: 50% 45%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+// 滾動條
+.swiper{
+  background-color: #000;
+}
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+.swiper-slide {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  width: auto;
+  color: #FBFF22;
+  background: #000;
+}
+// 活動錦集
+.h2-transform {
+  transform: translate(-50%, -50%) rotate(-4deg);
+}
+.event-rotate{
+  li {
+    &:nth-child(2n) {
+      transform:  rotate(2deg)
+    }
+    &:nth-child(3) {
+      transform:  rotate(-2deg)
+    }
+  }
+  p{
+    font-size: 18px;
+  }
+}
+.item {
+  img {
+    object-fit: cover;
+    height: 274px;
+  }
+}
