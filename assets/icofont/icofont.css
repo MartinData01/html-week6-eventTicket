@@ -33,9 +33,9 @@ url("./fonts/icofont.woff") format("woff");
   -webkit-font-smoothing: antialiased;
 }
 
-.icofont-search-1:before
+.icofont-rounded-double-right:before
 {
-  content: "\ed11";
+  content: "\ea98";
 }
 
 .icofont-ui-file:before
@@ -46,6 +46,11 @@ url("./fonts/icofont.woff") format("woff");
 .icofont-ui-user:before
 {
   content: "\ec8e";
+}
+
+.icofont-search-1:before
+{
+  content: "\ed11";
 }
 
 .icofont-ui-email:before
