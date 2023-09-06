@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登入 | 7TAO 活動訂票網</title>
+  </head>
+  <body class="h-100">
+    <%- include('./layout/header'); -%>
+
+    <!-- 登入資料-start -->
+    <div class="container mt-12 h-100">
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+          <img class="login-logo" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week6/sparkler.png" alt="logo">
+          <h4 class="my-5">會員登入</h4>
+          <form action="" method="get">
+            <div class="mb-5 noto-tc-sans text-start">
+              <label for="exampleFormControlInput1" class="form-label">帳號</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="請輸入帳號">
+            </div>
+            <div class="mb-8 noto-tc-sans text-start">
+              <label for="exampleFormControlInput2" class="form-label">密碼</label>
+              <input type="password" class="form-control" id="exampleFormControlInput2" placeholder="請輸入密碼">
+            </div>
+            <button type="submit" class="btn btn-primary w-100 noto-tc-sans py-5 py-md-2">登入 <i class="icofont-rounded-double-right"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- 登入資料-end -->
+    
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
