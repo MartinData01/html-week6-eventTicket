@@ -2,11 +2,12 @@
   img{
     width: 40px;
     height: 40px;
+    @media (min-width: 992px){
+      width: 55px;
+      height: 55px;
+    };
   }
-  @media (min-width: 992px){
-    width: 55px;
-    height: 55px;
-  }
+  
 } 
 .nav-items{
   font-size: 18px;

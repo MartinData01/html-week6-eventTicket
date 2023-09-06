@@ -20,7 +20,10 @@
   background-position: 50% 45%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 317px;
+  @media (min-width: 992px){
+    height: 100%;
+  }
 }
 // 滾動條
 .swiper{
@@ -46,10 +49,18 @@
 .event-rotate{
   li {
     &:nth-child(2n) {
-      transform:  rotate(2deg)
+      transform:  rotate(1deg)
     }
     &:nth-child(3) {
-      transform:  rotate(-2deg)
+      transform:  rotate(-1deg)
+    }
+    @media (min-width: 992px){
+      &:nth-child(2n) {
+        transform:  rotate(2deg)
+      }
+      &:nth-child(3) {
+        transform:  rotate(-2deg)
+      }
     }
   }
   p{
